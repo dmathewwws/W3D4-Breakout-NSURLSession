@@ -13,6 +13,8 @@
 		12397A602048AE2800D1B923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12397A5F2048AE2800D1B923 /* Assets.xcassets */; };
 		12397A632048AE2800D1B923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12397A612048AE2800D1B923 /* LaunchScreen.storyboard */; };
 		12397A662048AE2800D1B923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12397A652048AE2800D1B923 /* main.m */; };
+		12397A6E2048CB0500D1B923 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 12397A6D2048CB0500D1B923 /* Photo.m */; };
+		12397A712048CE2300D1B923 /* FlickrPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12397A702048CE2300D1B923 /* FlickrPhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		12397A622048AE2800D1B923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12397A642048AE2800D1B923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12397A652048AE2800D1B923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12397A6C2048CB0500D1B923 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		12397A6D2048CB0500D1B923 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		12397A6F2048CE2300D1B923 /* FlickrPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		12397A702048CE2300D1B923 /* FlickrPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				12397A572048AE2800D1B923 /* AppDelegate.m */,
 				12397A592048AE2800D1B923 /* ViewController.h */,
 				12397A5A2048AE2800D1B923 /* ViewController.m */,
+				12397A6C2048CB0500D1B923 /* Photo.h */,
+				12397A6D2048CB0500D1B923 /* Photo.m */,
 				12397A5C2048AE2800D1B923 /* Main.storyboard */,
+				12397A6F2048CE2300D1B923 /* FlickrPhotoCollectionViewCell.h */,
+				12397A702048CE2300D1B923 /* FlickrPhotoCollectionViewCell.m */,
 				12397A5F2048AE2800D1B923 /* Assets.xcassets */,
 				12397A612048AE2800D1B923 /* LaunchScreen.storyboard */,
 				12397A642048AE2800D1B923 /* Info.plist */,
@@ -142,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12397A6E2048CB0500D1B923 /* Photo.m in Sources */,
 				12397A5B2048AE2800D1B923 /* ViewController.m in Sources */,
+				12397A712048CE2300D1B923 /* FlickrPhotoCollectionViewCell.m in Sources */,
 				12397A662048AE2800D1B923 /* main.m in Sources */,
 				12397A582048AE2800D1B923 /* AppDelegate.m in Sources */,
 			);
